@@ -87,11 +87,11 @@ This will:
 ## Collecting Metrics
 eBPF-aware DASH player collects:
 
--Throughput (kbps)
+- Throughput (kbps)
 - RTT (ms)
 - Jitter (ms)
 - Buffer length, stalls, quality switches
--Cumulative QoE
+- Cumulative QoE
 
 Metrics are saved via a websocket
 
