@@ -31,17 +31,18 @@ It includes:
   ```bash
   sudo apt install mininet
   ```
-
-
-  - bpftool
+  
+- bpftool
+  
    ```bash
   sudo apt install bpftool
-```
+  ```
 
 - FFmpeg
+  
  ```bash
   sudo apt install ffmpeg
-```
+ ```
 
 ## Python Packages
 Install required Python packages using pip:
