@@ -29,7 +29,7 @@ It includes:
 - Python 3.x
 - Mininet
   ```bash
-  sudo apt install mininet
+  sudo apt install mininet ```
 
   - bpftool
    ```bash
