@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>DASH Player – Default ABR + QoE</title>
+<style>
+  body { margin:0; padding:20px; background:#000; color:#fff; font-family:Arial, sans-serif; }
+  #videoPlayer { width:100%; max-width:800px; background:#111; }
+  .status { position:fixed; top:10px; left:10px; background:rgba(0,0,0,0.85);
+            color:white; padding:12px; border-radius:8px; font-family:'Courier New',monospace;
+            font-size:12px; z-index:10000; border:2px solid #00ff00; max-width:360px; }
+</style>
+<script src="https://cdn.dashjs.org/v4.7.4/dash.all.min.js"></script>
+</head>
+<body>
+<video id="videoPlayer" controls muted autoplay></video>
+<div id="status" class="status"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const video = document.getElementById('videoPlayer');
+  const statusDiv = document.getElementById('status');
+  const player = dashjs.MediaPlayer().create();
+
+  // Enable automatic ABR
+  player.updateSettings({
+    streaming: {
+      abr: {
+        autoSwitchBitrate: true,
+        initialBitrate: { video: 0 } // start at lowest quality (800 kbps)
+      }
+    }
+  });
+
+  player.initialize(video, 'live/stream.mpd', true);
+
+  // QoE tracking
+  let totalStallTime = 0, stallStart = null, stalls = 0;
+  let bitrateHistory = [], switchCount = 0;
+  let qoeScore = 0, cumulativeQoE = 0, qoeSamples = 0;
+
+  // Buffer helper
+  function bufferLen() {
+    const b = video.buffered, t = video.currentTime;
+    for (let i = 0; i < b.length; i++) {
+      if (b.start(i) <= t && b.end(i) >= t) return b.end(i) - t;
+    }
+    return 0;
+  }
+
+  // Track rendered quality changes
+  player.on('qualityChangeRendered', (e) => {
+    if (e.mediaType !== 'video') return;
+    const reps = player.getBitrateInfoListFor('video');
+    const newIndex = e.newQuality;
+    const oldIndex = Number.isFinite(e.oldQuality) ? e.oldQuality : 0;
+    const newB = reps[newIndex]?.bitrate || 0;
+    bitrateHistory.push({ time: performance.now() / 1000, bitrate: newB });
+    if (oldIndex !== newIndex) switchCount++;
+  });
+
+  // Stall tracking
+  video.addEventListener('waiting', () => {
+    if (!stallStart) { stallStart = performance.now(); stalls++; }
+  });
+  video.addEventListener('playing', () => {
+    if (stallStart) {
+      totalStallTime += (performance.now() - stallStart) / 1000;
+      stallStart = null;
+    }
+  });
+
+  // QoE calculation
+  function calcQoE() {
+    const t = video.currentTime;
+    if (t <= 0) return 0;
+    const avgBitrate = bitrateHistory.length ? bitrateHistory.reduce((s, b) => s + b.bitrate, 0) / bitrateHistory.length : 0;
+    const fQ = avgBitrate / 2_000_000;
+    const fS = 1 - (totalStallTime / t);
+    const fSw = 1 - Math.min(switchCount / 10, 1);
+    return Math.max(0, Math.min(1, 0.35*fQ + 0.25*fS + 0.1*fSw));
+  }
+
+  // Update UI
+  function updateStatus() {
+    const buf = bufferLen();
+    const reps = player.getBitrateInfoListFor('video');
+    const q = player.getQualityFor('video');
+    const br = reps[q] ? Math.round(reps[q].bitrate / 1000) : 0;
+
+    const currentQoE = calcQoE();
+    cumulativeQoE += currentQoE;
+    qoeSamples++;
+    const avgQoE = cumulativeQoE / qoeSamples;
+    qoeScore = currentQoE;
+
+    statusDiv.innerHTML = `
+      <strong>DASH Default ABR + QoE</strong><br>
+      Bitrate: <span style="color:#0ff">${br} kbps</span><br>
+      Buffer: <span style="color:${buf>5?'#0f0':'#f00'}">${buf.toFixed(1)}s</span><br>
+      Stalls: <span style="color:${stalls===0?'#0f0':'#f00'}">${stalls}</span><br>
+      Instant QoE: <span style="color:${currentQoE>0.7?'#0f0':currentQoE>0.4?'#ff0':'#f00'}">${currentQoE.toFixed(3)}</span><br>
+      Avg QoE: <span style="color:${avgQoE>0.7?'#0f0':avgQoE>0.4?'#ff0':'#f00'}">${avgQoE.toFixed(3)}</span>
+    `;
+  }
+
+  setInterval(updateStatus, 1500);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+  File "/home/kali/dash_project/cors_server.py", line 8
+    os.chdir(/home/kali/dash_project)
+             ^
+SyntaxError: invalid syntax

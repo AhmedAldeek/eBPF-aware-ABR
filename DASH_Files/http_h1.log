@@ -1,0 +1,807 @@
+10.0.0.2 - - [10/Dec/2025 09:51:35] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:36] "GET /live/init-stream1.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:36] "GET /live/init-stream3.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:38] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:38] "GET /live/chunk-stream3-00013.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:39] "GET /live/chunk-stream3-00014.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:39] "GET /live/chunk-stream1-00013.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:41] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:41] "GET /live/chunk-stream1-00014.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:43] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:44] "GET /live/chunk-stream3-00015.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:44] "GET /live/chunk-stream1-00015.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:45] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:46] "GET /live/chunk-stream3-00016.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:47] "GET /live/chunk-stream1-00016.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:48] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:49] "GET /live/chunk-stream3-00017.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:49] "GET /live/chunk-stream1-00017.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:51] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:51] "GET /live/chunk-stream3-00018.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:52] "GET /live/chunk-stream1-00018.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:53] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:53] "GET /live/chunk-stream3-00019.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:54] "GET /live/chunk-stream1-00019.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:55] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:56] "GET /live/chunk-stream3-00020.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:56] "GET /live/chunk-stream1-00020.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:57] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:58] "GET /live/chunk-stream3-00021.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:51:59] "GET /live/chunk-stream1-00021.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:00] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:01] "GET /live/chunk-stream1-00022.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:01] "GET /live/chunk-stream3-00022.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:02] "GET /live/stream.mpd HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:52:03] "GET /live/chunk-stream3-00023.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:04] "GET /live/chunk-stream1-00023.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:05] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:06] "GET /live/chunk-stream3-00024.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:07] "GET /live/stream.mpd HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:52:08] "GET /live/chunk-stream1-00024.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:09] "GET /live/chunk-stream3-00025.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:10] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:11] "GET /live/chunk-stream1-00025.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:12] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:13] "GET /live/chunk-stream3-00026.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:14] "GET /live/chunk-stream1-00026.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:15] "GET /live/stream.mpd HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:52:16] "GET /live/chunk-stream3-00027.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:16] "GET /live/chunk-stream1-00027.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:18] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:18] "GET /live/chunk-stream3-00028.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:19] "GET /live/chunk-stream1-00028.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:20] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:22] "GET /live/chunk-stream3-00029.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:23] "GET /live/chunk-stream1-00029.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:23] "GET /live/stream.mpd HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:52:26] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:26] "GET /live/chunk-stream3-00030.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:26] "GET /live/chunk-stream1-00030.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:27] "GET /live/chunk-stream3-00031.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:28] "GET /live/stream.mpd HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:52:29] "GET /live/chunk-stream1-00031.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:30] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:31] "GET /live/chunk-stream3-00032.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:32] "GET /live/chunk-stream1-00032.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:33] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:34] "GET /live/chunk-stream3-00033.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:35] "GET /live/chunk-stream1-00033.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:36] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:37] "GET /live/chunk-stream3-00034.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:37] "GET /live/chunk-stream1-00034.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:39] "GET /live/stream.mpd HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:52:41] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:41] "GET /live/chunk-stream1-00035.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:42] "GET /live/chunk-stream3-00035.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:43] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:44] "GET /live/chunk-stream3-00036.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:44] "GET /live/chunk-stream1-00036.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:46] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:46] "GET /live/chunk-stream3-00037.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:46] "GET /live/chunk-stream1-00037.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:48] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:48] "GET /live/chunk-stream3-00038.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:49] "GET /live/chunk-stream1-00038.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:50] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:52] "GET /live/chunk-stream3-00039.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:52] "GET /live/chunk-stream1-00039.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:53] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:54] "GET /live/chunk-stream3-00040.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:55] "GET /live/chunk-stream1-00040.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:56] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:58] "GET /live/chunk-stream3-00041.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:58] "GET /live/chunk-stream1-00041.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:52:59] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:00] "GET /live/chunk-stream3-00042.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:00] "GET /live/chunk-stream1-00042.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:01] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:02] "GET /live/chunk-stream3-00043.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:02] "GET /live/chunk-stream1-00043.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:03] "GET /live/chunk-stream3-00044.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:04] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:04] "GET /live/chunk-stream1-00044.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:05] "GET /live/chunk-stream3-00045.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:06] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:06] "GET /live/chunk-stream1-00045.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:07] "GET /live/chunk-stream3-00046.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:08] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:09] "GET /live/init-stream1.m4s HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:53:09] "GET /live/init-stream3.m4s HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:53:09] "GET /live/chunk-stream1-00047.m4s HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.0.0.2', 58810)
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+10.0.0.2 - - [10/Dec/2025 09:53:09] "GET /live/chunk-stream3-00047.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:09] "GET /live/chunk-stream1-00049.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:09] "GET /live/chunk-stream3-00049.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:10] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:12] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:15] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:15] "GET /live/chunk-stream1-00059.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:16] "GET /live/chunk-stream3-00059.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:17] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:17] "GET /live/chunk-stream1-00060.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:19] "GET /live/chunk-stream3-00060.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:19] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:20] "GET /live/chunk-stream1-00061.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:21] "GET /live/chunk-stream3-00061.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:22] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:23] "GET /live/chunk-stream1-00062.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:23] "GET /live/chunk-stream3-00062.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:24] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:25] "GET /live/chunk-stream3-00063.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:25] "GET /live/chunk-stream1-00063.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:26] "GET /live/chunk-stream3-00064.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:27] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:27] "GET /live/chunk-stream1-00064.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:29] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:30] "GET /live/chunk-stream3-00065.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:30] "GET /live/chunk-stream1-00065.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:31] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:32] "GET /live/chunk-stream3-00066.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:32] "GET /live/chunk-stream1-00066.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:34] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:34] "GET /live/chunk-stream3-00067.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:35] "GET /live/chunk-stream1-00067.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:36] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:37] "GET /live/chunk-stream1-00068.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:37] "GET /live/chunk-stream3-00068.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:38] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:38] "GET /live/chunk-stream3-00069.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:39] "GET /live/chunk-stream1-00069.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:41] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:41] "GET /live/chunk-stream3-00070.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:41] "GET /live/chunk-stream1-00070.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:43] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:43] "GET /live/chunk-stream3-00071.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:44] "GET /live/chunk-stream1-00071.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:45] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:45] "GET /live/chunk-stream1-00072.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:46] "GET /live/chunk-stream3-00072.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:47] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:47] "GET /live/chunk-stream3-00073.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:47] "GET /live/chunk-stream1-00073.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:49] "GET /live/chunk-stream3-00074.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:49] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:50] "GET /live/chunk-stream1-00074.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:52] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:52] "GET /live/chunk-stream3-00075.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:53] "GET /live/chunk-stream1-00075.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:54] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:55] "GET /live/chunk-stream3-00076.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:55] "GET /live/chunk-stream1-00076.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:57] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:57] "GET /live/chunk-stream3-00077.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:58] "GET /live/chunk-stream1-00077.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:53:59] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:00] "GET /live/chunk-stream3-00078.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:00] "GET /live/chunk-stream1-00078.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:02] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:02] "GET /live/chunk-stream3-00079.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:03] "GET /live/chunk-stream1-00079.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:04] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:04] "GET /live/chunk-stream3-00080.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:05] "GET /live/chunk-stream1-00080.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:06] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:06] "GET /live/chunk-stream1-00081.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:07] "GET /live/chunk-stream3-00081.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:08] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:09] "GET /live/chunk-stream3-00082.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:10] "GET /live/chunk-stream1-00082.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:11] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:12] "GET /live/chunk-stream1-00083.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:13] "GET /live/chunk-stream3-00083.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:14] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:14] "GET /live/chunk-stream3-00084.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:15] "GET /live/chunk-stream1-00084.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:16] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:16] "GET /live/chunk-stream3-00085.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:17] "GET /live/chunk-stream1-00085.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:18] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:19] "GET /live/chunk-stream3-00086.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:19] "GET /live/chunk-stream1-00086.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:20] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:21] "GET /live/chunk-stream3-00087.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:21] "GET /live/chunk-stream1-00087.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:22] "GET /live/chunk-stream3-00088.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:23] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:23] "GET /live/chunk-stream1-00088.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:25] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:25] "GET /live/chunk-stream3-00089.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:26] "GET /live/chunk-stream1-00089.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:27] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:28] "GET /live/chunk-stream3-00090.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:29] "GET /live/chunk-stream1-00090.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:30] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:31] "GET /live/chunk-stream3-00091.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:31] "GET /live/chunk-stream1-00091.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:32] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:33] "GET /live/chunk-stream3-00092.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:34] "GET /live/chunk-stream1-00092.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:35] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:36] "GET /live/chunk-stream3-00093.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:36] "GET /live/chunk-stream1-00093.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:38] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:39] "GET /live/chunk-stream3-00094.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:39] "GET /live/chunk-stream1-00094.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:41] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:42] "GET /live/chunk-stream3-00095.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:42] "GET /live/chunk-stream1-00095.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:43] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:44] "GET /live/chunk-stream3-00096.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:44] "GET /live/chunk-stream1-00096.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:45] "GET /live/chunk-stream3-00097.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:46] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:47] "GET /live/chunk-stream1-00097.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:48] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:49] "GET /live/chunk-stream3-00098.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:49] "GET /live/chunk-stream1-00098.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:51] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:52] "GET /live/chunk-stream3-00099.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:52] "GET /live/chunk-stream1-00099.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:53] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:54] "GET /live/chunk-stream3-00100.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:54] "GET /live/chunk-stream1-00100.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:55] "GET /live/chunk-stream3-00101.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:55] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:56] "GET /live/chunk-stream1-00101.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:58] "GET /live/chunk-stream3-00102.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:58] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:54:58] "GET /live/chunk-stream1-00102.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:00] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:00] "GET /live/chunk-stream1-00103.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:00] "GET /live/chunk-stream3-00103.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:01] "GET /live/chunk-stream3-00104.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:02] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:02] "GET /live/chunk-stream1-00104.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:04] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:04] "GET /live/chunk-stream3-00105.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:05] "GET /live/chunk-stream1-00105.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:06] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:07] "GET /live/chunk-stream3-00106.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:07] "GET /live/chunk-stream1-00106.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:09] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:10] "GET /live/chunk-stream3-00107.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:10] "GET /live/chunk-stream1-00107.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:12] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:12] "GET /live/init-stream1.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:13] "GET /live/chunk-stream1-00107.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:14] "GET /live/chunk-stream3-00108.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:14] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:15] "GET /live/chunk-stream1-00109.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:17] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:17] "GET /live/chunk-stream1-00110.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:18] "GET /live/init-stream3.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:19] "GET /live/chunk-stream3-00109.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:19] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:19] "GET /live/chunk-stream3-00110.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:19] "GET /live/chunk-stream3-00111.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:21] "GET /live/chunk-stream1-00111.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:21] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:22] "GET /live/chunk-stream1-00112.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:22] "GET /live/chunk-stream3-00112.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:23] "GET /live/chunk-stream3-00113.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:23] "GET /live/chunk-stream1-00113.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:24] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:25] "GET /live/chunk-stream3-00114.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:26] "GET /live/chunk-stream1-00114.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:27] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:28] "GET /live/chunk-stream1-00114.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:29] "GET /live/chunk-stream3-00115.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:29] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:30] "GET /live/chunk-stream1-00116.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:31] "GET /live/chunk-stream1-00116.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:31] "GET /live/chunk-stream3-00116.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:32] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:32] "GET /live/chunk-stream3-00118.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:32] "GET /live/chunk-stream1-00118.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:32] "GET /live/chunk-stream3-00119.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:33] "GET /live/chunk-stream3-00120.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:34] "GET /live/chunk-stream3-00117.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:34] "GET /live/chunk-stream1-00117.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:34] "GET /live/chunk-stream3-00118.m4s HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:55:34] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:36] "GET /live/chunk-stream1-00119.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:37] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:37] "GET /live/chunk-stream1-00120.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:38] "GET /live/chunk-stream1-00121.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:39] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:39] "GET /live/chunk-stream1-00122.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:41] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:42] "GET /live/chunk-stream1-00123.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:44] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:44] "GET /live/chunk-stream1-00124.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:46] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:47] "GET /live/chunk-stream1-00125.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:49] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:49] "GET /live/chunk-stream1-00126.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:50] "GET /live/chunk-stream1-00127.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:51] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:52] "GET /live/chunk-stream1-00128.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:54] "GET /live/chunk-stream1-00129.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:54] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:55] "GET /live/chunk-stream1-00130.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:57] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:57] "GET /live/chunk-stream1-00131.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:59] "GET /live/chunk-stream1-00132.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:55:59] "GET /live/init-stream3.m4s HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:56:00] "GET /live/init-stream1.m4s HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:56:00] "GET /live/chunk-stream3-00133.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:00] "GET /live/init-stream1.m4s HTTP/1.1" 304 -
+10.0.0.2 - - [10/Dec/2025 09:56:00] "GET /live/chunk-stream3-00135.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:00] "GET /live/chunk-stream3-00138.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:00] "GET /live/chunk-stream1-00138.m4s HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.0.0.2', 54154)
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+10.0.0.2 - - [10/Dec/2025 09:56:00] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:00] "GET /live/chunk-stream3-00143.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:00] "GET /live/chunk-stream1-00143.m4s HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.0.0.2', 54208)
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+10.0.0.2 - - [10/Dec/2025 09:56:01] "GET /live/chunk-stream1-00145.m4s HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.0.0.2', 54214)
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+10.0.0.2 - - [10/Dec/2025 09:56:01] "GET /live/chunk-stream3-00145.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:02] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:03] "GET /live/chunk-stream1-00146.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:03] "GET /live/chunk-stream3-00146.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:05] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:05] "GET /live/chunk-stream3-00147.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:05] "GET /live/chunk-stream1-00147.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:07] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:07] "GET /live/chunk-stream3-00148.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:08] "GET /live/chunk-stream1-00148.m4s HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.0.0.2', 40612)
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+10.0.0.2 - - [10/Dec/2025 09:56:09] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:09] "GET /live/chunk-stream3-00149.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:09] "GET /live/chunk-stream1-00149.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:11] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:11] "GET /live/chunk-stream3-00150.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:11] "GET /live/chunk-stream1-00150.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:13] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:13] "GET /live/chunk-stream1-00151.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:15] "GET /live/chunk-stream3-00151.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:15] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:16] "GET /live/chunk-stream3-00152.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:17] "GET /live/chunk-stream1-00152.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:18] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:19] "GET /live/chunk-stream3-00153.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:19] "GET /live/chunk-stream1-00153.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:21] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:22] "GET /live/chunk-stream3-00154.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:22] "GET /live/chunk-stream1-00154.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:23] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:24] "GET /live/chunk-stream3-00155.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:24] "GET /live/chunk-stream1-00155.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:26] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:26] "GET /live/chunk-stream3-00156.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:26] "GET /live/chunk-stream1-00156.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:28] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:28] "GET /live/chunk-stream3-00157.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:29] "GET /live/chunk-stream1-00157.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:30] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:30] "GET /live/chunk-stream3-00158.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:31] "GET /live/chunk-stream1-00158.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:33] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:34] "GET /live/chunk-stream1-00159.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:34] "GET /live/chunk-stream3-00159.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:35] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:35] "GET /live/chunk-stream3-00160.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:36] "GET /live/chunk-stream1-00160.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:38] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:38] "GET /live/chunk-stream3-00161.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:38] "GET /live/chunk-stream1-00161.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:40] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:41] "GET /live/chunk-stream3-00162.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:41] "GET /live/chunk-stream1-00162.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:42] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:43] "GET /live/chunk-stream3-00163.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:43] "GET /live/chunk-stream1-00163.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:45] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:45] "GET /live/chunk-stream3-00164.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:46] "GET /live/chunk-stream1-00164.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:47] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:48] "GET /live/chunk-stream3-00165.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:48] "GET /live/chunk-stream1-00165.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:50] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:50] "GET /live/chunk-stream3-00166.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:50] "GET /live/chunk-stream1-00166.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:52] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:52] "GET /live/chunk-stream3-00167.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:53] "GET /live/chunk-stream1-00167.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:54] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:55] "GET /live/chunk-stream1-00168.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:55] "GET /live/chunk-stream3-00168.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:56] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:56] "GET /live/chunk-stream3-00169.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:57] "GET /live/chunk-stream1-00169.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:58] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:58] "GET /live/chunk-stream3-00170.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:56:59] "GET /live/chunk-stream1-00170.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:00] "GET /live/chunk-stream3-00171.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:00] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:01] "GET /live/chunk-stream1-00171.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:02] "GET /live/chunk-stream3-00172.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:02] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:02] "GET /live/chunk-stream1-00172.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:04] "GET /live/chunk-stream3-00173.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:04] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:05] "GET /live/chunk-stream1-00173.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:07] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:07] "GET /live/chunk-stream3-00174.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:08] "GET /live/chunk-stream1-00174.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:09] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:10] "GET /live/chunk-stream3-00175.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:10] "GET /live/chunk-stream1-00175.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:12] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:12] "GET /live/chunk-stream3-00176.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:12] "GET /live/chunk-stream1-00176.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:14] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:14] "GET /live/chunk-stream3-00177.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:15] "GET /live/chunk-stream1-00177.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:16] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:17] "GET /live/chunk-stream3-00178.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:17] "GET /live/chunk-stream1-00178.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:19] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:19] "GET /live/chunk-stream3-00179.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:20] "GET /live/chunk-stream1-00179.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:21] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:22] "GET /live/chunk-stream3-00180.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:22] "GET /live/chunk-stream1-00180.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:24] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:25] "GET /live/chunk-stream3-00181.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:25] "GET /live/chunk-stream1-00181.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:26] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:27] "GET /live/chunk-stream3-00182.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:28] "GET /live/chunk-stream1-00182.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:29] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:29] "GET /live/chunk-stream3-00183.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:29] "GET /live/chunk-stream1-00183.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:31] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:31] "GET /live/chunk-stream3-00184.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:32] "GET /live/chunk-stream1-00184.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:33] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:34] "GET /live/chunk-stream3-00185.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:34] "GET /live/chunk-stream1-00185.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:35] "GET /live/chunk-stream3-00186.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:35] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:36] "GET /live/chunk-stream1-00186.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:37] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:38] "GET /live/chunk-stream1-00187.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:38] "GET /live/chunk-stream3-00187.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:40] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:40] "GET /live/chunk-stream1-00188.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:40] "GET /live/chunk-stream3-00188.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:41] "GET /live/chunk-stream3-00189.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:42] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:42] "GET /live/chunk-stream1-00189.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:43] "GET /live/chunk-stream3-00190.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:44] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:44] "GET /live/chunk-stream1-00190.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:46] "GET /live/chunk-stream3-00191.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:46] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:46] "GET /live/chunk-stream1-00191.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:48] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:48] "GET /live/chunk-stream3-00192.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:48] "GET /live/chunk-stream1-00192.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:49] "GET /live/chunk-stream3-00193.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:50] "GET /live/chunk-stream1-00193.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:50] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:51] "GET /live/chunk-stream3-00194.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:52] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:52] "GET /live/chunk-stream1-00194.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:53] "GET /live/chunk-stream3-00195.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:54] "GET /live/chunk-stream1-00195.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:54] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:56] "GET /live/chunk-stream3-00196.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:56] "GET /live/chunk-stream1-00196.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:57] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:58] "GET /live/chunk-stream3-00197.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:58] "GET /live/chunk-stream1-00197.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:57:59] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:01] "GET /live/chunk-stream3-00198.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:01] "GET /live/chunk-stream1-00198.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:02] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:02] "GET /live/chunk-stream3-00199.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:03] "GET /live/chunk-stream1-00199.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:04] "GET /live/chunk-stream3-00200.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:04] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:04] "GET /live/chunk-stream1-00200.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:06] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:07] "GET /live/chunk-stream3-00201.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:07] "GET /live/chunk-stream1-00201.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:08] "GET /live/chunk-stream3-00202.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:09] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:09] "GET /live/chunk-stream1-00202.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:11] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:11] "GET /live/chunk-stream3-00203.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:11] "GET /live/chunk-stream1-00203.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:13] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:13] "GET /live/chunk-stream1-00204.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:14] "GET /live/chunk-stream3-00204.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:15] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:15] "GET /live/chunk-stream3-00205.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:15] "GET /live/chunk-stream1-00205.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:17] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:17] "GET /live/chunk-stream3-00206.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:18] "GET /live/chunk-stream1-00206.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:19] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:20] "GET /live/chunk-stream3-00207.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:20] "GET /live/chunk-stream1-00207.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:22] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:22] "GET /live/chunk-stream3-00208.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:23] "GET /live/chunk-stream1-00208.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:24] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:24] "GET /live/chunk-stream3-00209.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:25] "GET /live/chunk-stream1-00209.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:27] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:28] "GET /live/chunk-stream3-00210.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:28] "GET /live/chunk-stream1-00210.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:29] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:30] "GET /live/chunk-stream1-00211.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:32] "GET /live/chunk-stream3-00211.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:32] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:34] "GET /live/chunk-stream3-00212.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:34] "GET /live/chunk-stream1-00212.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:36] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:38] "GET /live/chunk-stream3-00213.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:38] "GET /live/chunk-stream1-00213.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:38] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:40] "GET /live/chunk-stream3-00214.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:40] "GET /live/chunk-stream1-00214.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:41] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:43] "GET /live/chunk-stream3-00215.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:43] "GET /live/chunk-stream1-00215.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:44] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:44] "GET /live/chunk-stream3-00216.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:45] "GET /live/chunk-stream1-00216.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:46] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:48] "GET /live/chunk-stream3-00217.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:48] "GET /live/chunk-stream1-00217.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:50] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:52] "GET /live/chunk-stream3-00218.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:52] "GET /live/chunk-stream1-00218.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:52] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:54] "GET /live/chunk-stream3-00219.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:54] "GET /live/chunk-stream1-00219.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:55] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:56] "GET /live/chunk-stream3-00220.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:56] "GET /live/chunk-stream1-00220.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:57] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:58] "GET /live/chunk-stream3-00221.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:58:58] "GET /live/chunk-stream1-00221.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:00] "GET /live/chunk-stream3-00222.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:00] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:01] "GET /live/chunk-stream1-00222.m4s HTTP/1.1" 200 -
+----------------------------------------
+Exception occurred during processing of request from ('10.0.0.2', 58070)
+Traceback (most recent call last):
+  File "/usr/lib/python3.13/socketserver.py", line 318, in _handle_request_noblock
+    self.process_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 349, in process_request
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 672, in __init__
+    super().__init__(*args, **kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 436, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 424, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/usr/lib/python3.13/http/server.py", line 679, in do_GET
+    self.copyfile(f, self.wfile)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/http/server.py", line 881, in copyfile
+    shutil.copyfileobj(source, outputfile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/shutil.py", line 204, in copyfileobj
+    fdst_write(buf)
+    ~~~~~~~~~~^^^^^
+  File "/usr/lib/python3.13/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+10.0.0.2 - - [10/Dec/2025 09:59:02] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:02] "GET /live/init-stream1.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:03] "GET /live/chunk-stream3-00223.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:03] "GET /live/chunk-stream1-00222.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:05] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:06] "GET /live/chunk-stream1-00224.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:07] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:08] "GET /live/chunk-stream1-00225.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:08] "GET /live/init-stream3.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:08] "GET /live/chunk-stream1-00225.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:09] "GET /live/chunk-stream3-00225.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:10] "GET /live/stream.mpd HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:10] "GET /live/chunk-stream3-00226.m4s HTTP/1.1" 200 -
+10.0.0.2 - - [10/Dec/2025 09:59:11] "GET /live/chunk-stream1-00226.m4s HTTP/1.1" 200 -

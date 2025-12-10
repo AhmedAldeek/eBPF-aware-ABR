@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>DASH Player – QoE Collector + Cumulative QoE + Bitrate Rules</title>
+
+<style>
+  body { margin:0; padding:20px; background:#000; color:#fff; font-family:Arial }
+  #videoPlayer { width:100%; max-width:800px; background:#111; }
+  .status {
+    position:fixed; top:10px; left:10px; background:rgba(0,0,0,0.85);
+    color:white; padding:12px; border-radius:8px; font-family:'Courier New',monospace;
+    font-size:12px; z-index:10000; border:2px solid #00ff00; max-width:360px;
+  }
+</style>
+
+<script src="./dash.all.min.js"></script>
+</head>
+<body>
+
+<video id="videoPlayer" controls muted autoplay></video>
+<div id="status" class="status"></div>
+
+<script>
+window.addEventListener('load', () => {
+
+  const video = document.getElementById('videoPlayer');
+  const statusDiv = document.getElementById('status');
+  const player = dashjs.MediaPlayer().create();
+
+  player.updateSettings({
+    streaming: { abr: { autoSwitchBitrate: false } }  // WE CONTROL BITRATE, NOT DASH
+  });
+
+  const mpdUrl = "http://10.0.0.1:8000/live/stream.mpd";
+  player.initialize(video, mpdUrl, true);
+
+  // -------------------------------------------------------
+  // SESSION METRICS
+  // -------------------------------------------------------
+  const sessionMetrics = {
+    segments: [],
+    stalls: 0,
+    totalStallTime: 0,
+    avgRTT: 0,
+    maxThroughputObserved: 0,
+    qoeFinal: 0
+  };
+
+  let latestEbpf = { throughput_kbps: 0, rtt_ms: 1, jitter_ms: 0.1 };
+  let rttSamples = [];
+  let lastQualityIndex = null;
+  let qualitySwitches = 0;
+  let qoeUtilitySum = 0;
+
+  // -------------------------------------------------------
+  // QoE (CUMULATIVE — running score)
+  // -------------------------------------------------------
+  function computeCumulativeQoE() {
+    const stallPenalty = 4.3 * sessionMetrics.totalStallTime;
+    const switchPenalty = 1.0 * qualitySwitches;
+    return (qoeUtilitySum - stallPenalty - switchPenalty).toFixed(3);
+  }
+
+  // -------------------------------------------------------
+  // eBPF DATA (WebSocket)
+  // -------------------------------------------------------
+  function connectWS(){
+    const ws = new WebSocket("ws://10.0.0.2:5000");
+
+    ws.onmessage = (m) => {
+      const d = JSON.parse(m.data);
+      latestEbpf = {
+        throughput_kbps: d.throughput_kbps || 0,
+        rtt_ms: d.rtt_ms || 1,
+        jitter_ms: d.jitter_ms || 0.1
+      };
+
+      rttSamples.push(latestEbpf.rtt_ms);
+
+      if(d.throughput_kbps > sessionMetrics.maxThroughputObserved)
+        sessionMetrics.maxThroughputObserved = d.throughput_kbps;
+    };
+
+    ws.onclose = () => setTimeout(connectWS, 2000);
+  }
+  connectWS();
+
+  // -------------------------------------------------------
+  // HELPER: Buffer length
+  // -------------------------------------------------------
+  function bufferLen(){
+    const b = video.buffered, t = video.currentTime;
+    for(let i=0;i<b.length;i++)
+      if(b.start(i)<=t && b.end(i)>=t) return b.end(i)-t;
+    return 0;
+  }
+
+  // -------------------------------------------------------
+  // BITRATE SWITCHING RULES
+  // -------------------------------------------------------
+  const RTT_HIGH = 450;  // ms
+  const THR_SAFETY = 0.8;
+
+  setInterval(() => {
+
+    const reps = player.getBitrateInfoListFor('video');
+    if (!reps || reps.length === 0) return;
+
+    const currentQ = player.getQualityFor('video');
+    const rep = reps[currentQ];
+    const currentBitrate = rep.bitrate / 1000;  // kbps
+    const lowestBitrate = reps[0].bitrate / 1000; // kbps
+    let desiredQ = currentQ;
+
+    const thr = latestEbpf.throughput_kbps;
+    const rtt = latestEbpf.rtt_ms;
+
+    // -------------------------------------------------------
+    // APPLY MINIMUM THROUGHPUT CONDITION BEFORE SWITCHING
+    // -------------------------------------------------------
+    if(thr >= 0.8 * lowestBitrate){
+      // DROP BITRATE RULES
+      if (thr < currentBitrate * THR_SAFETY || rtt > RTT_HIGH) {
+        desiredQ = Math.max(0, currentQ - 1);
+      }
+      // INCREASE BITRATE RULES
+      else if (thr > currentBitrate * 1.2 && rtt < RTT_HIGH * 0.7) {
+        desiredQ = Math.min(reps.length - 1, currentQ + 1);
+      }
+    }
+
+    if (desiredQ !== currentQ) {
+      player.setQualityFor('video', desiredQ);
+      qualitySwitches++;
+      lastQualityIndex = desiredQ;
+      console.log(`🔄 Bitrate Switch: ${currentQ} → ${desiredQ}`);
+    }
+
+  }, 1000);
+
+  // -------------------------------------------------------
+  // COLLECT SEGMENT STATS + QoE utility
+  // -------------------------------------------------------
+  setInterval(() => {
+    const reps = player.getBitrateInfoListFor('video');
+    const qIndex = player.getQualityFor('video');
+    const rep = reps[qIndex] || reps[0];
+
+    const bitrate = rep.bitrate / 1000;
+    const utility = Math.log(bitrate);
+    qoeUtilitySum += utility;
+
+    const seg = {
+      time: Number(video.currentTime.toFixed(2)),
+      qualityIndex: qIndex,
+      bitrateKbps: Math.round(bitrate),
+      resolution: `${rep.width}x${rep.height}`,
+      bufferSec: Number(bufferLen().toFixed(2)),
+      throughputKbps: latestEbpf.throughput_kbps,
+      rttMs: latestEbpf.rtt_ms,
+      jitterMs: latestEbpf.jitter_ms,
+      utility: utility.toFixed(4)
+    };
+
+    sessionMetrics.segments.push(seg);
+
+  }, 1000);
+
+  // -------------------------------------------------------
+  // STALL TRACKING
+  // -------------------------------------------------------
+  let stallStart = null;
+
+  video.addEventListener("waiting", () => {
+    if(!stallStart){
+      stallStart = performance.now();
+      sessionMetrics.stalls++;
+    }
+  });
+
+  video.addEventListener("playing", () => {
+    if(stallStart){
+      sessionMetrics.totalStallTime += (performance.now()-stallStart)/1000;
+      stallStart = null;
+    }
+  });
+
+  // -------------------------------------------------------
+  // STATUS BAR
+  // -------------------------------------------------------
+  setInterval(() => {
+    const reps = player.getBitrateInfoListFor('video');
+    if(reps.length === 0) return;
+
+    const qIndex = player.getQualityFor('video');
+    const cumulativeQoE = computeCumulativeQoE();
+
+    statusDiv.innerHTML = `
+      <strong>DASH + eBPF QoE Collector</strong><br>
+      Bitrate: ${Math.round(reps[qIndex].bitrate/1000)} kbps<br>
+      Buffer: ${bufferLen().toFixed(1)}s<br>
+      RTT: ${latestEbpf.rtt_ms.toFixed(1)} ms<br>
+      Throughput: ${latestEbpf.throughput_kbps.toFixed(1)} kbps<br>
+      Stalls: ${sessionMetrics.stalls}<br>
+      Quality Switches: ${qualitySwitches}<br>
+      <span style="color:#0ff">QoE (cumulative): ${cumulativeQoE}</span><br>
+    `;
+  }, 1500);
+
+  // -------------------------------------------------------
+  // FINAL QoE CALCULATION + JSON SAVE
+  // -------------------------------------------------------
+  video.addEventListener("ended", async () => {
+
+    if(rttSamples.length > 0){
+      sessionMetrics.avgRTT =
+        rttSamples.reduce((a,b)=>a+b,0)/rttSamples.length;
+    }
+
+    const stallPenalty = 4.3 * sessionMetrics.totalStallTime;
+    const switchPenalty = 1.0 * qualitySwitches;
+
+    sessionMetrics.qoeFinal =
+      Number((qoeUtilitySum - stallPenalty - switchPenalty).toFixed(4));
+
+    console.log("⭐⭐ FINAL QoE:", sessionMetrics.qoeFinal);
+
+    await fetch("http://10.0.0.2:9100/save_metrics", {
+      method: "POST",
+      headers: { "Content-Type":"application/json" },
+      body: JSON.stringify(sessionMetrics)
+    });
+
+  });
+
+});
+</script>
+
+</body>
+</html>
