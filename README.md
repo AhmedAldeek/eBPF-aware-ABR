@@ -48,6 +48,7 @@ It includes:
 Install required Python packages using pip:
  ```bash
 pip install -r requirements.txt
+```
 
 ## Project Structure
 eBPF-aware-ABR/
@@ -68,6 +69,7 @@ eBPF-aware-ABR/
  ```bash
 git clone https://github.com/AhmedAldeek/eBPF-aware-ABR.git
 cd eBPF-aware-ABR
+```
 
 2. Install dependencies
 Follow the prerequisites section to install system packages and Python libraries.
@@ -76,6 +78,8 @@ Follow the prerequisites section to install system packages and Python libraries
 Start Mininet with DASH + eBPF setup
  ```bash
 sudo python3 scripts/mininet_topo.py
+```
+
 This will:
 
 - Start a Mininet network with two hosts (h1, h2) and one switch (s1)
@@ -107,6 +111,7 @@ Metrics are saved via a websocket
 ## Cleaning Up
  ```bash
 sudo mn -c
+```
 
 
 ## Refrences
