@@ -115,6 +115,6 @@ sudo mn -c
 
 
 ## Refrences
--eBPF: https://ebpf.io
--Mininet: http://mininet.org
--DASH / ABR Streaming: ISO/IEC 23009-1
+- eBPF: https://ebpf.io
+- Mininet: http://mininet.org
+- DASH / ABR Streaming: ISO/IEC 23009-1
