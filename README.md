@@ -52,17 +52,17 @@ pip install -r requirements.txt
 
 ## Project Structure
 eBPF-aware-ABR/
-├── DASH_Files/               # DASH video files and resources
-├── eBPF_programs/            # Kernel-level eBPF/XDP programs
-│   └── tcp_metrics.c         # eBPF C code for TCP metrics
-├── scripts/
-│   ├── mininet_topo.py       # Mininet network + DASH + eBPF agent setup
-│   └── agent2.py             # Python agent for eBPF metrics
-├── html/
-│   ├── dash_eBPF.html        # eBPF-aware DASH player
-│   └── dash_default.html     # Default ABR DASH player
-├── logs/                     # Experiment logs
-└── README.md
+├── DASH_Files/ # DASH video files and resources
+├── eBPF_programs/ # Kernel-level eBPF/XDP programs
+│ └── tcp_metrics.c # eBPF C code for TCP metrics
+├── scripts/ # Python scripts
+│ ├── mininet_topo.py # Mininet network + DASH + eBPF agent setup
+│ └── agent2.py # Python agent for eBPF metrics
+├── html/ # DASH player HTML files
+│ ├── dash_eBPF.html # eBPF-aware ABR DASH player
+│ └── dash_default.html # Default ABR DASH player
+├── logs/ # Experiment logs
+└── README.md # Project README
 
 
 
