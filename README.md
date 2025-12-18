@@ -71,7 +71,7 @@ Start Mininet with DASH + eBPF setup
 sudo python3 mininet_topo.py
 ```
 
-# Starting firefox in h2 in the mininet
+## Starting firefox in h2 in the mininet
 
  ```bash
 h2 bash -c "export DISPLAY=:0 && firefox --no-sandbox"
