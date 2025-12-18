@@ -44,11 +44,6 @@ It includes:
   sudo apt install ffmpeg
  ```
 
-## Python Packages
-Install required Python packages using pip:
- ```bash
-pip install -r requirements.txt
-```
 
 
 ## Installation & Setup
@@ -58,13 +53,28 @@ git clone https://github.com/AhmedAldeek/eBPF-aware-ABR.git
 cd eBPF-aware-ABR
 ```
 
+# Mounting cgroup 
+
+ ```bash
+sudo mount -t cgroup none /sys/fs/cgroup/memory -o memory
+```
+
+
 2. Install dependencies
 Follow the prerequisites section to install system packages and Python libraries.
+
+
 
 ## Running the Experiment
 Start Mininet with DASH + eBPF setup
  ```bash
-sudo python3 scripts/mininet_topo.py
+sudo python3 mininet_topo.py
+```
+
+# Starting firefox in h2 in the mininet
+
+ ```bash
+h2 bash -c "export DISPLAY=:0 && firefox --no-sandbox"
 ```
 
 This will:
